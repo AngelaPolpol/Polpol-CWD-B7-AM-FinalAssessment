@@ -37,9 +37,8 @@
     text-transform: uppercase;
     font-size: 40px;
     color: #blue;
+    text-shadow: 2px 2px #000000;
     top: 300%;
-    background: #CCC;
-    opacity: 0.6;
   }
 
   #mobile-demo {

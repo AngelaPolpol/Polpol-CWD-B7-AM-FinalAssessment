@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Travel Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Materialize Icon-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+    </head>
+
+    
+    <body class="hero">
+
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper blue darken-3">
+                <img src="Logo/Lagunalogo.png" class="brand-logo center " style="height: 180%;" id="LG">
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down" id="font">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="binan.html">Binan</a></li>
+                <li><a href="#cabuyao">Cabuyao</a></li>
+                <li><a href="#calamba">Calamba</a></li>
+                <li><a href="#san pablo">San Pablo</a></li>
+                <li><a href="san pedro">San Pedro</a></li>
+                <li><a href="santa rosa">Santa Rosa</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <ul class="sidenav blue darken-3" id="mobile-demo" style="opacity: 80%;">
+        <img src="Logo/Lagunalogo.png" class="responsive-img" id="navlogo" style="height: 30%;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="binan.html">Binan</a></li>
+        <li><a href="#cabuyao">Cabuyao</a></li>
+        <li><a href="#calamba">Calamba</a></li>
+        <li><a href="#san pablo">San Pablo</a></li>
+        <li><a href="san pedro">San Pedro</a></li>
+        <li><a href="santa rosa">Santa Rosa</a></li>
+      </ul>
+
+    <div class="slider fullscreen">
+        <ul class="slides"> 
+          <li>
+            <img src="LandPage/LandingPage1.png">
+            <div class="caption left-align">
+              <h1 class="font-effect">Binan City</h1>
+            </div>
+          </li>
+          <li>
+            <img src="LandPage/LandingPage2.jpg">
+            <div class="caption left-align">
+              <h1 class="font-effect">Cabuyao City</h1>
+            </div>
+          </li>
+          <li>
+            <img src="LandPage/LandingPage3.jpg">
+            <div class="caption left-align">
+              <h1 class="font-effect">Calamba City</h1>
+            </div>
+          </li>
+          <li>
+            <img src="LandPage/LandingPage4.JPG">
+            <div class="caption left-align">
+              <h1 class="font-effect">San Pablo City</h1>
+            </div>
+          </li>
+          <li>
+            <img src="LandPage/LandingPage5.jpg">
+            <div class="caption left-align">
+              <h1 class="font-effect">San Pedro City</h1>
+            </div>
+          </li>
+          <li>
+            <img src="LandPage/LandingPage6.jpg">
+            <div class="caption left-align">
+              <h1 class="font-effect">Santa Rosa City</h1>
+            </div>
+          </li>
+      </ul>
+      
+    </div>
+
+
+
+        
+    
+        
+
+        <!--jquery cdn-->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+           $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+        </script>
+
+        <script>
+            $(document).ready(function(){
+              $('.slider').slider({
+                full_width: false,
+                interval:5000,
+                transition:800,
+              });
+            });
+        </script>
+
+    </body>
+</html>

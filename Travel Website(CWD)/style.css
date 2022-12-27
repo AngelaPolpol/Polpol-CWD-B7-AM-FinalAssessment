@@ -1,0 +1,65 @@
+.meddon{
+    font-family: 'Meddon', cursive;
+  }
+  img{
+    background-repeat: norepeat;
+      -webkit-animation: myfirst 20s; /* Chrome, Safari, Opera */
+      animation: myfirst 2000;
+      animation-play-state: running;
+      -webkit-animation-play-state: running;
+   
+  }
+  
+  @-webkit-keyframes myfirst {
+      from {
+      background-position: bottom center;
+      background-size: cover;
+      }
+      to { 
+        background-position: top center;
+        background-size: cover;
+      }
+  }
+  .LG {
+    margin-left: 50%;
+    margin-top: 100px;
+  }
+  #font {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  #mobile-demo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+  }
+  h1 {
+    font-family: Merriweather,serif;
+    font-size: 40px;
+    color: #eeff41;
+    top: 300%;
+  }
+  #mobile-demo {
+    padding-top: 5%;
+  }
+  #navlogo {
+    margin-left: 15%;
+  }
+  #bbody {
+    height: 40%;
+    width: 40%;
+  }
+  h2, h5 {
+    font-family: Merriweather,serif;
+    font-size: 40px;
+    color: brown;
+    top: 300%;
+  }
+  #CBmap {
+    padding-left: 30%;
+    width: 60%;
+  }
+  .parallax-container {
+    height: "500px";
+  }
+
+  

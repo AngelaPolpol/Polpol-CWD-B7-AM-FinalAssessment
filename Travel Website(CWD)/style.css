@@ -36,13 +36,12 @@
     font-family: Merriweather,serif;
     text-transform: uppercase;
     font-size: 40px;
-    color: #eeff41;
+    color: #blue;
     top: 300%;
-  }
-.caption{
-    background-color: #CCC;
+    background: #CCC;
     opacity: 0.6;
-}
+  }
+
   #mobile-demo {
     padding-top: 5%;
   }
